@@ -5,7 +5,7 @@ import { randomText } from "../helper/helpers";
 import LoginPage from "../pages/loginPage";
 
 
-test.only("Sign up user", async ({ page }) => {
+test("Sign up user", async ({ page }) => {
   const loginPage = new LoginPage(page);
   const emailPage = new EmailPage(page);
   const userName = randomText()
