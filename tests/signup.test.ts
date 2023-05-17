@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { getLatestEmail } from "../helper/email-api";
+import { getLatestEmail } from "../helper/emailApi";
 import { EmailPage } from "../pages/emailPage";
 import { randomText } from "../helper/helpers";
 import LoginPage from "../pages/loginPage";
