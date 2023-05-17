@@ -1,0 +1,20 @@
+{
+  "name": "recoverable-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "playwright-core": "^1.33.0"
+  },
+  "testTimeout": 120000,
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "unzip": "^0.1.11",
+    "unzipper": "^0.10.14"
+  }
+}
