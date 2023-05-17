@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests/signup.test.ts",
-      "file": "tests/signup.test.ts",
+      "title": "tests/e2e/example.spec.js",
+      "file": "tests/e2e/example.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Sign up user",
+          "title": "has title",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,17 +78,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 34970,
+                  "duration": 7005,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-17T07:26:18.390Z",
+                  "startTime": "2023-05-17T09:57:55.856Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/ushoh/Desktop/automation-demo/test-results/tests-signup-Sign-up-user/test-finished-1.png"
+                      "path": "/Users/ushoh/Desktop/automation-demo/test-results/tests-e2e-example-has-title/test-finished-1.png"
                     }
                   ]
                 }
@@ -96,10 +96,10 @@
               "status": "expected"
             }
           ],
-          "id": "b2bab78f78d0c7a2961f-ee5de450c1617ef99882",
-          "file": "tests/signup.test.ts",
-          "line": 8,
-          "column": 6
+          "id": "96e2e28a39437900d3cb-2e0afd288569ea295d4f",
+          "file": "tests/e2e/example.spec.js",
+          "line": 3,
+          "column": 1
         }
       ]
     }
