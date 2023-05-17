@@ -45,7 +45,7 @@
         "testDir": "/Users/ushoh/Desktop/automation-demo",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(m)[jt]s?(x)"
+          "tests/signup.test.ts"
         ],
         "timeout": 300000
       }
@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests/e2e/example.test.ts",
-      "file": "tests/e2e/example.test.ts",
+      "title": "tests/signup.test.ts",
+      "file": "tests/signup.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "has title",
+          "title": "Sign up user",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,17 +78,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7268,
+                  "duration": 35025,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-17T10:03:52.708Z",
+                  "startTime": "2023-05-17T13:12:18.685Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/ushoh/Desktop/automation-demo/test-results/tests-e2e-example-has-title/test-finished-1.png"
+                      "path": "/Users/ushoh/Desktop/automation-demo/test-results/tests-signup-Sign-up-user/test-finished-1.png"
                     }
                   ]
                 }
@@ -96,10 +96,10 @@
               "status": "expected"
             }
           ],
-          "id": "80bd2fcdba3f7682de42-fb0f7c36e443359f4fed",
-          "file": "tests/e2e/example.test.ts",
-          "line": 3,
-          "column": 1
+          "id": "b2bab78f78d0c7a2961f-ee5de450c1617ef99882",
+          "file": "tests/signup.test.ts",
+          "line": 8,
+          "column": 6
         }
       ]
     }

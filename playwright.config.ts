@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
-  //testMatch: ["tests/signup.test.ts"],
+  testMatch: ["tests/signup.test.ts"],
   timeout: 5 * 60 * 1000,
   use: {
     //baseURL: "",
