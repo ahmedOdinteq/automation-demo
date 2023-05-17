@@ -58,8 +58,8 @@
   },
   "suites": [
     {
-      "title": "tests/e2e/example.spec.js",
-      "file": "tests/e2e/example.spec.js",
+      "title": "tests/e2e/example.test.ts",
+      "file": "tests/e2e/example.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -78,12 +78,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7005,
+                  "duration": 7268,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-17T09:57:55.856Z",
+                  "startTime": "2023-05-17T10:03:52.708Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -96,8 +96,8 @@
               "status": "expected"
             }
           ],
-          "id": "96e2e28a39437900d3cb-2e0afd288569ea295d4f",
-          "file": "tests/e2e/example.spec.js",
+          "id": "80bd2fcdba3f7682de42-fb0f7c36e443359f4fed",
+          "file": "tests/e2e/example.test.ts",
           "line": 3,
           "column": 1
         }
